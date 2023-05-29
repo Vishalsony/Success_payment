@@ -1,0 +1,75 @@
+@media (orientation: portrait) {
+
+.backColor{
+    height:100vh;
+    background-color: #B599D4;
+}
+.backColor .heading{
+    color: yellow;
+    font-size: 1.65em;
+    text-shadow: 2px 0px grey;
+}
+.backColor .heading2{
+    color: white;
+    font-size: 1.4em;
+    text-shadow: 2px 0px grey;
+}
+.box2{
+    display:flex ;
+    justify-content:center
+}
+.image{
+    height:100px;
+    width:100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-shadow: 10px 0px grey;
+}
+.column1{
+    display: flex;
+    justify-content: space-between;
+}
+.backColor .white{
+    color:white;
+    padding:10px 20px;
+    font-size: 1.4em;
+    text-shadow: 2px 0px grey;
+}
+.backColor .white1{
+    color:white;
+    padding:10px 20px;
+    font-size: 1em;
+    text-shadow: 2px 0px grey;
+}
+.divider{
+    background-color:white;
+    
+}
+.condition{
+    display:flex;
+    justify-content: flex-end;
+    color: white;
+}
+.column2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.backColor .cancleButton{
+    background-color: grey;
+    width:35%;
+    border-radius: 8px;
+    color:white;
+    border: 2px solid white;
+    text-shadow: 2px 0px grey;
+}
+.backColor .payNowButton{
+    width:35%;
+    border-radius: 8px;
+    background-color: #17bf17;
+    color:white;
+    border: 2px solid white;
+    text-shadow: 2px 0px grey;
+}
+}
